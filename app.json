@@ -1,0 +1,34 @@
+{
+  "name": "Kønnect",
+  "displayName": "Kønnect",
+  "expo": {
+    "name": "Kønnect",
+    "icon": "./logo.png",
+    "slug": "andersen-app",
+    "version": "1.0.1",
+    "sdkVersion": "27.0.0",
+    "privacy": "unlisted",
+    "android": {
+      "package": "com.irdev.konnect_app",
+      "versionCode": 5,
+      "config": {
+       "googleMaps": {
+         "apiKey": "AIzaSyCbYW5CoxoxwTrMO6H3RvoFFXzHSICF2lI"
+       }
+     }
+    },
+    "ios": {
+      "bundleIdentifier": "com.irdev.konnectapp",
+      "buildNumber": "4",
+      "icon": "./logo-no-alpha.png"
+    },
+    "splash": {
+      "image": "./app/assets/images/splash_960.png",
+      "resizeMode": "cover"
+    },
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./app/assets/images/notification.png"
+    }
+  }
+}
